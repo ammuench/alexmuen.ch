@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+.c_aboutPage {
+    padding: 2rem;
+    max-width: 768px;
+    margin: auto;
+}
+
+.c_aboutPage__header {
+    font-family: $font-pridi;
+    text-transform: lowercase;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.c_aboutPage__profile {
+    float: left;
+    width: 150px;
+    margin-right: 1rem;
+}
+
+.c_aboutPage__skillsHeader {
+    font-family: $font-pridi;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.c_aboutPage__backbtn {
+    margin-top: 2rem;
+}

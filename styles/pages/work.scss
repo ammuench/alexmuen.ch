@@ -1,0 +1,19 @@
+@import "../variables.scss";
+
+.c_workPage {
+    padding: 2rem;
+    max-width: 768px;
+    margin: auto;
+}
+
+.c_workPage__header {
+    font-family: $font-pridi;
+    text-transform: lowercase;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.c_workPage__backbtn {
+    margin-top: 2rem;
+}

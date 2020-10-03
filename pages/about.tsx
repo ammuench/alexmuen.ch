@@ -13,7 +13,7 @@ const About = () => {
                     Hello!  My name is Alex Muench.  I'm a software developer with over 7 years of professional experience.  I grew up just outside of Chicago, and have been living in the city since 2013.
                 </p>
                 <p>
-                    I have been tinkering with computers and programming since a child, and have been making websites since the days of Geocities.  I'm also passionate marine biology and the environment around us.  I pursued both these topics in College, and graduated from the University of Notre Dame with a double major in Environmental Science and Computer Applications.
+                    I have been tinkering with computers and programming since a child, and have been making websites since the days of Geocities.  I'm also passionate about marine biology and the environment around us.  I pursued both these topics in College, and graduated from the University of Notre Dame with a double major in Environmental Science and Computer Applications.
                 </p>
                 <p>
                     I've done the majority of my professional work in various agencies and consulting firms.  I've done stints at Acquity Group, Accenture, and am currently at Nerdery.  This has allowed me to have a broad exposure to many different industries, projects, and techniques in my career.

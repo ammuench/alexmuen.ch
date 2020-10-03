@@ -111,12 +111,22 @@
 .o_staticPage__footer {
     grid-area: footer;
 
-    background-color: $shadow;
+    background-color: $primary;
     margin: 0;
     border-top: 0;
+    padding: 0.75rem;
 
     display: grid;
     grid-template: 1fr 1fr / 1fr;
-    justify-items: center;
+    justify-items: start;
     align-items: center;
+    font-size: 0.75rem;
+
+    text-align: left;
+
+    background-image: url(/assets/bird.png);
+    background-size: 90px auto;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 0.75rem);
+    background-position-y: center;
 }

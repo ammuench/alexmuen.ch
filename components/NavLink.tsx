@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 interface NavLinkProps {
     path: string;
@@ -10,7 +11,9 @@ interface NavLinkProps {
 const NavLink = ({ path, text }: NavLinkProps): JSX.Element => {
     const isActive = useRouter().pathname === path;
     return (
-        <a href={path} className={`c_header__link ${isActive ? 'c_header__link--active' : ''}`}>{text}</a>
+        <Link href={path}>
+            <a className={`c_header__link ${isActive ? 'c_header__link--active' : ''}`}>{text}</a>
+        </Link>
     )
 }
 

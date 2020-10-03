@@ -32,7 +32,7 @@ const Work = () => {
                 <p>
                     You can find other various work samples & projects over on my GitHub as well
                     <div className="c_workPage__backbtn">
-                        <TextButton path="https://github.com/ammuench" text="My Github" invert />
+                        <TextButton path="https://github.com/ammuench" text="My Github"/>
                     </div>
                 </p>
                 <h2 className="c_workPage__header">work history</h2>

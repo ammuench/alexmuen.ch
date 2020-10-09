@@ -23,7 +23,7 @@
         width: 100%;
         background-color: $primary;
         z-index: 0;
-        transform: translateX(-100%);
+        transform: translateX(-105%);
         transition: transform 0.25s ease-in-out;
     }
 
@@ -54,7 +54,7 @@
             width: 100%;
             background-color: $white;
             z-index: 0;
-            transform: translateX(-100%);
+            transform: translateX(-105%);
             transition: transform 0.25s ease-in-out;
         }
 

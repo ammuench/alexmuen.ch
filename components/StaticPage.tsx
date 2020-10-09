@@ -24,8 +24,8 @@ const StaticPage = ({ children, pageTitle, hideHeader }: StaticPageProps) => {
                 <header className="o_staticPage__header c_header">
                     <h1 className="c_header__text">alex muench</h1>
                     <div className="c_header__linkContainer">
-                        <NavLink path="/about" text="About"/>
-                        <NavLink path="/work" text="work"/>
+                        <NavLink path="/about.html" text="About"/>
+                        <NavLink path="/work.html" text="work"/>
                     </div>
                 </header>
             }

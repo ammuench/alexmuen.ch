@@ -5,7 +5,7 @@ import TextButton from '../components/TextButton';
 
 const Home = () => {
   return (
-    <StaticPage pageTitle="alexmuen.ch | Hello." hideHeader>
+    <StaticPage pageTitle="alexmuen.ch | software developer & bird enthusiast" hideHeader>
       <div className="c_homePage">
         <div className="c_homeHero">
           <div className="c_homeHero__title">

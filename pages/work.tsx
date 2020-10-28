@@ -5,7 +5,7 @@ import TextButton from '../components/TextButton';
 
 const Work = () => {
     return (
-        <StaticPage pageTitle="alexmuen.ch | My Work">
+        <StaticPage pageTitle="alexmuen.ch | my work">
             <div className="c_workPage">
                 <h2 className="c_workPage__header">Projects</h2>
                 <p>

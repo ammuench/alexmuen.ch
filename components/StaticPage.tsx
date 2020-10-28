@@ -15,11 +15,42 @@ const CopyrightInfo = (): JSX.Element => {
     </p>
 }
 
+const DEFAULT_META_CONTENT = `Alex Muench is a Software Developer from Chicago, IL with over 7 years of professional development experience.`;
+
 const StaticPage = ({ children, pageTitle, hideHeader }: StaticPageProps) => {
     return (
         <div className={`o_staticPage ${hideHeader ? 'o_staticPage--noheader' : null}`}>
             <Head>
                 <title>{pageTitle}</title>
+
+                <meta name="title" content={pageTitle} />
+                <meta name="description" content={DEFAULT_META_CONTENT} />
+
+                {/* <!-- Open Graph / Facebook --> */}
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://alexmuen.ch" />
+                <meta property="og:title" content={pageTitle} />
+                <meta
+                    property="og:description"
+                    content={DEFAULT_META_CONTENT}
+                />
+                <meta
+                    property="og:image"
+                    content="https://alexmuen.ch/meta.png"
+                />
+
+                {/* <!-- Twitter --/> */}
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://alexmuen.ch" />
+                <meta property="twitter:title" content={pageTitle} />
+                <meta
+                    property="twitter:description"
+                    content={DEFAULT_META_CONTENT}
+                />
+                <meta
+                    property="twitter:image"
+                    content="https://alexmuen.ch/meta.png"
+                ></meta>
             </Head>
             { !hideHeader &&
                 <header className="o_staticPage__header c_header">

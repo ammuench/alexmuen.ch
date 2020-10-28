@@ -32,10 +32,49 @@
     padding: 0 0.75rem;
 }
 
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    45% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    90% {
+        transform: translateY(2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .c_header__text {
     font-family: $font-nobile;
     margin: 0;
     font-size: 2rem;
+    position: relative;
+    top: -3px;
+
+    > a > span {
+        display: inline-block;
+    }
+}
+
+.c_header__text a:hover {
+    color: $black;
+    
+    @for $i from 1 through 11 {
+        span:nth-child(#{$i}n) {
+            animation: bounce 0.25s ease-in-out;
+            animation-delay: #{$i * 0.1}s;
+        }
+    }
 }
 
 .c_header__linkContainer {

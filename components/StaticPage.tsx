@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import NavLink from './NavLink';
+import Link from 'next/link';
 
 interface StaticPageProps {
     children: JSX.Element | JSX.Element[];
@@ -22,10 +23,26 @@ const StaticPage = ({ children, pageTitle, hideHeader }: StaticPageProps) => {
             </Head>
             { !hideHeader &&
                 <header className="o_staticPage__header c_header">
-                    <h1 className="c_header__text">alex muench</h1>
+                    <h1 className="c_header__text">
+                        <Link href="/">
+                            <a>
+                                <span>a</span>
+                                <span>l</span>
+                                <span>e</span>
+                                <span>x</span>
+                                <span>&nbsp;</span>
+                                <span>m</span>
+                                <span>u</span>
+                                <span>e</span>
+                                <span>n</span>
+                                <span>c</span>
+                                <span>h</span>
+                            </a>
+                        </Link>
+                    </h1>
                     <div className="c_header__linkContainer">
-                        <NavLink path="/about.html" text="About"/>
-                        <NavLink path="/work.html" text="work"/>
+                        <NavLink path="/about" text="About" />
+                        <NavLink path="/work" text="work" />
                     </div>
                 </header>
             }

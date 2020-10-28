@@ -11,28 +11,43 @@ const Work = () => {
                 <p>
                     I have been lucky enough to contribute and work with major Fortune 500 companies in my time working with multiple development agencies and consulting firms.  I have particular experience in both eCommerce and Medical projects.
                 </p>
+                <p>Several of my projects:</p>
+                <ul>
+                    <li>
+                        <a href="https://ggleagues.com" target="_blank">GGLeagues.com</a>: An Angular 10 Applcation that handles our user-facing tournaments, registration, chat system, and payment processing
+                    </li>
+                    <li>
+                        <a href="https://joshhalewriting.com" target="_blank">Josh Hale Writing</a>: An isomorphic Travel Blog & Writing Portfolio written in NextJS and powered by a custom StrapiJS CMS
+                    </li>
+                </ul>
                 <p>
                     Outside of professional work, I also build some fun microsites:
                 </p>
-                <p>
-                    <a href="https://vaporwave.fish" target="_blank">Vaporwave.fish</a>: a vaporwave streaming website with aesthetic fish vibes
-                </p>
-                <p>
-                    <a href="https://catfact.page" target="_blank">Catfact.page</a>: a microsite that delivers on-demand cat facts
-                </p>
+                <ul>
+                    <li>
+                        <a href="https://vaporwave.fish" target="_blank">Vaporwave.fish</a>: a vaporwave streaming website with aesthetic fish vibes
+                        </li>
+                    <li>
+                        <a href="https://catfact.page" target="_blank">Catfact.page</a>: a microsite that delivers on-demand cat facts
+                        </li>
+                </ul>
                 <p>
                     I have also built and maintain several NPM packages:
                 </p>
-                <p>
-                    <a href="https://github.com/ammuench/extra-life-api" target="_blank">extra-life-api</a>: the official node package for integration with the Extra Life charity donation API
-                </p>
-                <p>
-                    <a href="https://github.com/ammuench/node-artifact-api" target="_blank">node-artifact-api</a>: a typescript based implemation of Valve's Artifact API, allowing users to build, encode, and store decks
-                </p>
+                <ul>
+                    <li>
+                        <a href="https://github.com/ammuench/extra-life-api" target="_blank">extra-life-api</a>: the official node package for integration with the Extra Life charity donation API
+
+                    </li>
+                    <li>
+                        <a href="https://github.com/ammuench/node-artifact-api" target="_blank">node-artifact-api</a>: a typescript based implemation of Valve's Artifact API, allowing users to build, encode, and store decks
+
+                    </li>
+                </ul>
                 <p>
                     You can find other various work samples & projects over on my GitHub as well
                     <div className="c_workPage__backbtn">
-                        <TextButton path="https://github.com/ammuench" text="My Github"/>
+                        <TextButton path="https://github.com/ammuench" text="My Github" />
                     </div>
                 </p>
                 <h2 className="c_workPage__header">work history</h2>

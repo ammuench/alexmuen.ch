@@ -51,6 +51,9 @@ const StaticPage = ({ children, pageTitle, hideHeader }: StaticPageProps) => {
                     property="twitter:image"
                     content="https://alexmuen.ch/meta.png"
                 ></meta>
+                {/* LD+JSON */}
+                <script type="applictation/ld+json" dangerouslySetInnerHTML={{__html: `{"@context": "http://schema.org/","@type": "Person","name": "Alex Muench","jobTitle": "Software Developer","url": "https://alexmuen.ch"}`}}>
+                </script>
             </Head>
             { !hideHeader &&
                 <header className="o_staticPage__header c_header">

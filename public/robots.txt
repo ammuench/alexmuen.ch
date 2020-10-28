@@ -136,8 +136,6 @@ User-agent: yoozBot
 User-agent: YoudaoBot
 # crawling rule(s) for above bots
 Disallow:
-# disallow all other bots
-User-agent: *
-Disallow: /
+
 
 Sitemap: https://alexmuen.ch/sitemap.xml

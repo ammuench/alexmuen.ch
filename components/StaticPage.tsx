@@ -84,8 +84,8 @@ const StaticPage = ({ children, pageTitle, hideHeader }: StaticPageProps) => {
                 {children}
             </main>
             <footer className="o_staticPage__footer">
-                <p>Icons made by <a target="_blank" href="https://www.flaticon.com/free-icon/next_709486?term=arrow&page=1&position=20" title="Kiranshastry">Kiranshastry</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
-                <p>Illustrations by <a target="_blank" href="https://dribbble.com/Ivan_Haidutski">Ivan Haidutski</a> and <a target="_blank" href="https://icons8.com/">Icons8</a> from <a target="_blank" href="https://icons8.com/">Icons8</a></p>
+                <p>Icons made by <a target="_blank" rel="noopener" href="https://www.flaticon.com/free-icon/next_709486?term=arrow&page=1&position=20" title="Kiranshastry">Kiranshastry</a> from <a target="_blank" rel="noopener" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                <p>Illustrations by <a target="_blank" rel="noopener" href="https://dribbble.com/Ivan_Haidutski">Ivan Haidutski</a> and <a target="_blank" rel="noopener" href="https://icons8.com/">Icons8</a> from <a target="_blank" rel="noopener" href="https://icons8.com/">Icons8</a></p>
                 <CopyrightInfo></CopyrightInfo>
             </footer>
         </div>

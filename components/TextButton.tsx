@@ -18,7 +18,7 @@ const TextButton = ({ path, text, invert }: TextButtonProps): JSX.Element => {
                     target="blank"
                 >
                     <span className="c_textButton__text">{text}</span>
-                    <img className="c_textButton__arrow" src="/assets/next.svg" />
+                    <img className="c_textButton__arrow" src="/assets/next.svg" alt="Icon of arrow symbol"/>
                 </a>
 
             </div>
@@ -32,7 +32,7 @@ const TextButton = ({ path, text, invert }: TextButtonProps): JSX.Element => {
                     className={`c_textButton ${invert ? 'c_textButton--invert' : ''}`}
                 >
                     <span className="c_textButton__text">{text}</span>
-                    <img className="c_textButton__arrow" src="/assets/next.svg" />
+                    <img className="c_textButton__arrow" src="/assets/next.svg" alt="Icon of arrow symbol"/>
                 </a>
             </Link>
 

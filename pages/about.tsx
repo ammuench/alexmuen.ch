@@ -5,7 +5,7 @@ import TextButton from '../components/TextButton';
 
 const About = () => {
     return (
-        <StaticPage pageTitle="alexmuen.ch | about me       ">
+        <StaticPage pageTitle="alex muench | about me       ">
             <div className="c_aboutPage">
                 <h2 className="c_aboutPage__header">About Me</h2>
                 <img className="c_aboutPage__profile" src="/assets/profile-tall.jpeg"/>

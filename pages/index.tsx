@@ -5,14 +5,14 @@ import TextButton from '../components/TextButton';
 
 const Home = () => {
   return (
-    <StaticPage pageTitle="alexmuen.ch | software developer & bird enthusiast" hideHeader>
+    <StaticPage pageTitle="alex muench | software developer & bird enthusiast" hideHeader>
       <div className="c_homePage">
         <div className="c_homeHero">
           <div className="c_homeHero__title">
             <h1 className="c_homeHero__titleText">alex muench</h1>
             <h2 className="c_homeHero__titleSubtext">software developer & bird enthusiast</h2>
           </div>
-          <img className="c_homeHero__img" src="/assets/header-hero.png" />
+          <img className="c_homeHero__img" src="/assets/header-hero.png" alt="Illustration of birds holding coding commands"/>
         </div>
         <div className="c_homePanel">
           <h3 className="c_homePanel__heading">Who am I?</h3>

@@ -14,7 +14,9 @@ const Work = () => {
                 <p>Several of my projects:</p>
                 <ul>
                     <li>
-                        <a rel="noopener" href="https://ggleagues.com" target="_blank">GGLeagues.com</a>: An Angular 10 Applcation that handles our user-facing tournaments, registration, chat system, and payment processing
+                        <a rel="noopener" href="https://www.ggleagues.com" target="_blank">GGLeagues.com Home</a>: A NextJS collection of static, promotional, and marketing pages for GGLeagues, with a focus on speed and SEO</li>
+                    <li>
+                        <a rel="noopener" href="https://app.ggleagues.com" target="_blank">GGLeagues.com Webapp</a>: An Angular 11 Applcation that handles our user-facing tournaments, registration, chat system, and payment processing
                     </li>
                     <li>
                         <a rel="noopener" href="https://joshhalewriting.com" target="_blank">Josh Hale Writing</a>: An isomorphic Travel Blog & Writing Portfolio written in NextJS and powered by a custom StrapiJS CMS
@@ -24,6 +26,9 @@ const Work = () => {
                     Outside of professional work, I also build some fun microsites:
                 </p>
                 <ul>
+                    <li>
+                        <a rel="noopener" href="https://itsallno.de" target="_blank">its all node</a>: it's all node?  always has been.
+                    </li>
                     <li>
                         <a rel="noopener" href="https://vaporwave.fish" target="_blank">Vaporwave.fish</a>: a vaporwave streaming website with aesthetic fish vibes
                         </li>
@@ -52,14 +57,13 @@ const Work = () => {
                 </p>
                 <h2 className="c_workPage__header">work history</h2>
                 <p>
-                    I am currently employed full-time as a Senior Front-End Software Engineer at <a rel="noopener" href="https://www.nerdery.com/" target="_blank">Nerdery</a> in Chicago.  I started in January of 2018.  My duties include development, technical team management on client projects, and general technology consulting around best practices and strategies for my clients.
-                </p>
-
-                <p>
-                    I am also currently working as the Chief Technology Officer at  at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a>, also in Chicago.  I started in April of 2018.  My duties include managing the devops of our production applications, architecting and building our Web Application, and growing and managing our development and tech team at the company.
+                    I am also currently working full-time as the Chief Technology Officer at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a> in Chicago.  I started in April of 2018.  My duties include managing the devops of our production applications, architecting and building our Web Application, and growing and managing our development and tech team at the company.
                 </p>
                 <p>
-                    Prior to Nerdery & GGLeagues, I spent 5 years working at <a rel="noopener" href="https://www.accenture.com/us-en/about/interactive-index" target="_blank">Accenture Interactive</a> and <a rel="noopener" href="https://en.wikipedia.org/wiki/Acquity_Group" target="_blank">Acquity Group (now owned by Accenture Interactive)</a>.  I began as an associate level developer, working as team members on various client projects, and was promoted up to Senior Front-End Developer where I took on larger team management and project architecture roles.
+                    Prior to GGLeagues, I spent 3 years as a Senior Front-End Software Engineer at <a rel="noopener" href="https://www.nerdery.com/" target="_blank">Nerdery</a> in Chicago.  I started in January of 2018.  My duties include software development, technical team management on client projects, and general technology consulting around best practices and strategies for my clients.
+                </p>
+                <p>
+                    Before that, I spent 5 years working at <a rel="noopener" href="https://www.accenture.com/us-en/about/interactive-index" target="_blank">Accenture Interactive</a> and <a rel="noopener" href="https://en.wikipedia.org/wiki/Acquity_Group" target="_blank">Acquity Group (now owned by Accenture Interactive)</a>.  I began as an associate level developer, working as team members on various client projects, and was promoted up to Senior Front-End Developer where I took on larger team management and project architecture roles.
                 </p>
                 <div className="c_workPage__backbtn">
                     <TextButton path="/" text="back to home" />

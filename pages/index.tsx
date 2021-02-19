@@ -30,9 +30,7 @@ const Home = () => {
           <div className="c_homePanel__inner">
             <h3 className="c_homePanel__heading">Work</h3>
             <p>
-              I am currently working as a Senior Front-End Engineer at <a rel="noopener" href="https://www.nerdery.com/" target="_blank">Nerdery</a> in Chicago.  I typically work as a technical lead for one of our many clients, helping both develop solutions and guide clients with technical decisions
-          </p>
-            <p>I am also the CTO at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a>.  I run our technical team and architect our Web Application, which helps us enable organizations and community groups to run recreational esports leagues for their communities</p>
+              I am currently the CTO at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a>.  I run our technical team and architect our Web Application, which helps us enable organizations and community groups to run recreational esports leagues for their communities</p>
             <TextButton path="https://github.com/ammuench" text="My Github" invert />
             <br />
             <TextButton path="/work" text="more about my work" invert />

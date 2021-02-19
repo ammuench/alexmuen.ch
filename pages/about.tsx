@@ -16,10 +16,10 @@ const About = () => {
                     I have been tinkering with computers and programming since a child, and have been making websites since the days of Geocities.  I'm also passionate about marine biology and the environment around us.  I pursued both these topics in College, and graduated from the University of Notre Dame with a double major in Environmental Science and Computer Applications.
                 </p>
                 <p>
-                    I've done the majority of my professional work in various agencies and consulting firms.  I've done stints at Acquity Group, Accenture, and am currently at Nerdery.  This has allowed me to have a broad exposure to many different industries, projects, and techniques in my career.
+                    I've done the majority of my professional work in various agencies and consulting firms.  I've done stints at Acquity Group, Accenture, and and Nerdery.  This has allowed me to have a broad exposure to many different industries, projects, and techniques in my career.
                 </p>
                 <p>
-                    I've also been heavily invested in the esports scene.  From 2016-2018 I was involved with running the largest, amateur Dota 2 leagues at the time.  And though I eventually moved on, the experience of running teams and serving international groups of players was exciting and a massive learning experience.  After wrapping up my work in Dota 2 leagues, I was approached by GGLeagues, a company focused on helping organization connect with their communities through esports, and offered the CTO role. At GGLeagues, I am currently building our web application and growing our tech team.
+                    I've also been heavily invested in the esports scene.  From 2016-2018 I was involved with running the largest, amateur Dota 2 leagues at the time.  And though I eventually moved on, the experience of running teams and serving international groups of players was exciting and a massive learning experience.  After wrapping up my work in Dota 2 leagues, I was approached by GGLeagues, a company focused on helping organization connect with their communities through esports, and offered the CTO role. At GGLeagues, I am currently building our web application, managing our devops, and growing our tech team.
                 </p>
                 <p>
                     My primary focus is in Front-End development, but I also have a strong foundation in devops (building and mainting linux servers and services) and experience with Python and Mobile Development.

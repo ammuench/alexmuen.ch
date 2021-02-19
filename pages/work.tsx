@@ -57,7 +57,7 @@ const Work = () => {
                 </p>
                 <h2 className="c_workPage__header">work history</h2>
                 <p>
-                    I am also currently working full-time as the Chief Technology Officer at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a> in Chicago.  I started in April of 2018.  My duties include managing the devops of our production applications, architecting and building our Web Application, and growing and managing our development and tech team at the company.
+                    I am currently working full-time as the Chief Technology Officer at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a> in Chicago.  I started in April of 2018.  My duties include managing the devops of our production applications, architecting and building our Web Application, and growing and managing our development and tech team at the company.
                 </p>
                 <p>
                     Prior to GGLeagues, I spent 3 years as a Senior Front-End Software Engineer at <a rel="noopener" href="https://www.nerdery.com/" target="_blank">Nerdery</a> in Chicago.  I started in January of 2018.  My duties include software development, technical team management on client projects, and general technology consulting around best practices and strategies for my clients.

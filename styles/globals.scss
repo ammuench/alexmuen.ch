@@ -2,7 +2,7 @@
 @import "~marx-css/css/marx.min.css";
 
 // Utils
-@import './variables.scss';
+@import "./variables.scss";
 @import "./utils/fonts";
 
 html,
@@ -11,8 +11,8 @@ body {
   margin: 0;
   color: $black;
   background-color: $white;
-  font-family: HindMadurai, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: HindMadurai, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 16px;
 }
 
@@ -26,10 +26,11 @@ a {
 }
 
 // Component Imports
-@import './components/TextButtons';
-@import './components/StaticPage';
+@import "./components/TextButtons";
+@import "./components/StaticPage";
 
 // Page Imports
-@import './pages/about.scss';
-@import './pages/home.scss';
-@import './pages/work.scss';
+@import "./pages/about.scss";
+@import "./pages/home.scss";
+@import "./pages/work.scss";
+@import "./pages/birds.scss";

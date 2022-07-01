@@ -6,6 +6,7 @@
   max-width: 80%;
   // padding;
   margin: auto;
+  margin-bottom: 2rem;
 
   .c_birdImageContainer {
     width: 200px;
@@ -25,5 +26,49 @@
         transform: scale(1.05, 1.05);
       }
     }
+  }
+}
+
+.c_birdImageContainer--mobile {
+  display: none;
+}
+
+.c_birdModal {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, .5);
+
+  display: grid;
+  grid-template: auto auto / 100%;
+
+  align-items: center;
+  justify-items: center;
+
+  .c_birdModal__img {    
+    max-height: 90vh;
+    max-width: 90vw;
+    margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  .c_birdImageContainer {
+    display: none !important;
+  }
+  .c_birdImageContainer--mobile {
+    display: block;
+  }
+  .c_bird__imageContainer {
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(125px, 1fr));
+    grid-gap: 0.75rem 0.75rem;
+    max-width: 90%;
+    justify-items: center;
   }
 }

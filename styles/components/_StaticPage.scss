@@ -172,3 +172,9 @@
     background-position-x: calc(100% - 0.75rem);
     background-position-y: center;
 }
+
+@media screen and (max-width: 500px) {
+    .c_header__text--hidemobile {
+        display: none !important;
+    }
+}

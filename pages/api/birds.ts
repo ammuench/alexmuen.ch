@@ -8,12 +8,16 @@ export default async (req, res) => {
 }
 
 export async function getTweets() {
+  const twitterToken = process.env.TWITTER_TOKEN || (config as any).twitterToken;
+  if (!twitterToken) {
+    throw "No twitter token provided"
+  }
   const currTime = new Date().toISOString();
   const axConfig: AxiosRequestConfig = {
     url: `https://api.twitter.com/2/users/14194699/tweets?tweet.fields=created_at&exclude=replies,retweets&expansions=attachments.media_keys&media.fields=media_key,type,url&max_results=100&start_time=2020-07-24T17:00:00Z&end_time=${currTime}`,
     method: "get",
     headers: {
-      "Authorization": `Bearer ${config.twitterToken}`
+      "Authorization": `Bearer ${twitterToken}`
     }
   }
   const twitterGet = axios(axConfig);

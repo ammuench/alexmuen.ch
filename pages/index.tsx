@@ -19,10 +19,10 @@ const Home = () => {
             <h3 className="c_homePanel__heading">Who am I?</h3>
             <p>
               Hello, I'm Alex!
-            <br />
-            I am a software developer from Chicago, Illinois.
-            <br />
-            I primarily work in Front-End development, but also have devops, server, and mobile development experience</p>
+              <br />
+              I am a Web Developer from Chicago, Illinois.
+              <br />
+              I have over 9+ years experience in software development with additional experience in leadership roles and </p>
             <TextButton path="/about" text="More About Me" />
           </div>
         </div>
@@ -38,6 +38,20 @@ const Home = () => {
         </div>
         <div className="c_homePanel">
           <div className="c_homePanel__inner">
+            <h3 className="c_homePanel__heading">Bird Photgraphy</h3>
+            <p>
+              I've been an avid birder an naturalist for multiple years.
+              <br />
+              I'm an avid bird photographer as well who has been published and showcased by the <a rel="noopener" href="https://www.chicagobirder.org/" target="_blank">Chicago Ornithological Society</a> and <a rel="noopener" href="https://ebird.org/" target="_blank">Cornell's eBird</a>.
+              <br />
+              If there is any interest in licensing my photographs, please reach out via email
+            </p>
+            <TextButton path="/birds" text="recent photography samples" />
+            <TextButton path="https://media.ebird.org/catalog?mediaType=photo&searchField=user&userId=USER1787639&sort=upload_date_desc&unconfirmed=incl" text="My eBird Photo Contributions" />
+          </div>
+        </div>
+        <div className="c_homePanel c_homePanel--alt">
+          <div className="c_homePanel__inner">
             <h3 className="c_homePanel__heading">Contact Me</h3>
             <p>
               You can reach out to me with any inquiries or questions via email at:<br />
@@ -45,10 +59,8 @@ const Home = () => {
             </p>
             <p>
               I can also be reached through social media, though email is preferred
-          </p>
-            <TextButton path="https://www.linkedin.com/in/alex-muench-76585b83/" text="My LinkedIn" />
-            <br />
-            <TextButton path="https://www.facebook.com/alex.muench/" text="My Facebook" />
+            </p>
+            <TextButton path="https://www.linkedin.com/in/alex-muench-76585b83/" text="My LinkedIn" invert />
           </div>
         </div>
       </div>

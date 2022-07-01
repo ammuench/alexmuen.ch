@@ -8,7 +8,7 @@ const About = () => {
         <StaticPage pageTitle="alex muench | about me       ">
             <div className="c_aboutPage">
                 <h2 className="c_aboutPage__header">About Me</h2>
-                <img className="c_aboutPage__profile" src="/assets/profile-tall.jpeg"/>
+                <img className="c_aboutPage__profile" src="/assets/alex_web_portrait.jpg" />
                 <p>
                     Hello!  My name is Alex Muench.  I'm a software developer with over 7 years of professional experience.  I grew up just outside of Chicago, and have been living in the city since 2013.
                 </p>
@@ -19,13 +19,16 @@ const About = () => {
                     I've done the majority of my professional work in various agencies and consulting firms.  I've done stints at Acquity Group, Accenture, and and Nerdery.  This has allowed me to have a broad exposure to many different industries, projects, and techniques in my career.
                 </p>
                 <p>
-                    I've also been heavily invested in the esports scene.  From 2016-2018 I was involved with running the largest, amateur Dota 2 leagues at the time.  And though I eventually moved on, the experience of running teams and serving international groups of players was exciting and a massive learning experience.  After wrapping up my work in Dota 2 leagues, I was approached by GGLeagues, a company focused on helping organization connect with their communities through esports, and offered the CTO role. At GGLeagues, I am currently building our web application, managing our devops, and growing our tech team.
+                    I've also been heavily invested in the esports scene.  From 2016-2018 I was involved with running the largest amateur Dota 2 leagues at the time.  And though I eventually moved on, the experience of running teams and serving international groups of players was exciting and a massive learning experience.
                 </p>
                 <p>
-                    My primary focus is in Front-End development, but I also have a strong foundation in devops (building and mainting linux servers and services) and experience with Python and Mobile Development.
+                    After leaving EchoLeague, I was approached by GGLeagues, a company focused on helping organization connect with their communities through esports, and offered the CTO role. In this role I am currently building our web application, managing our devops, growing our tech team, and working to build a platform that helps bring esports to everyone.
                 </p>
                 <p>
-                    Outside of development, I've gotten very big into birding and bird photography.  <a href="https://ebird.org/profile/MTc4NzYzOQ" target="_blank">You can see my photography and progress over on eBird!</a>
+                    My primary focus is in Front-End development, but I also have a lot of experience building fullstack NodeJS applicatoins, a strong foundation in devops (building and maintaining linux servers and services), and experience with Python and Mobile Development.
+                </p>
+                <p>
+                    Outside of development, I've gotten very big into birding and bird photography.  <a href="https://ebird.org/profile/MTc4NzYzOQ" target="_blank">You can see my photography and progress over on eBird!</a>.  I'm also an avid World of Warcraft raider, and have been pushing AOTC for the last 3 seasons with my guild!
                 </p>
                 <p>
                     <h3 className="c_aboutPage__skillsHeader">Skills: </h3>
@@ -37,7 +40,7 @@ const About = () => {
                         <li>Experienced in Linux Systems administration</li>
                         <li>Experienced in NGINX web hosting</li>
                         <li>Experienced in setup of Continuous Integration services</li>
-                        <li>Some experience with Godot (GodotScript), C#, Kotlin, React Native</li> 
+                        <li>Some experience with Godot (GodotScript), C#, Kotlin, React Native</li>
                     </ul>
                 </p>
                 <div className="c_aboutPage__backbtn">

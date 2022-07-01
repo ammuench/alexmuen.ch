@@ -52,31 +52,32 @@ const StaticPage = ({ children, pageTitle, hideHeader }: StaticPageProps) => {
                     content="https://alexmuen.ch/meta.png"
                 ></meta>
                 {/* LD+JSON */}
-                <script type="applictation/ld+json" dangerouslySetInnerHTML={{__html: `{"@context": "http://schema.org/","@type": "Person","name": "Alex Muench","jobTitle": "Software Developer","url": "https://alexmuen.ch"}`}}>
+                <script type="applictation/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "http://schema.org/","@type": "Person","name": "Alex Muench","jobTitle": "Software Developer","url": "https://alexmuen.ch"}` }}>
                 </script>
             </Head>
-            { !hideHeader &&
+            {!hideHeader &&
                 <header className="o_staticPage__header c_header">
                     <h1 className="c_header__text">
                         <Link href="/">
                             <a>
                                 <span>a</span>
-                                <span>l</span>
-                                <span>e</span>
-                                <span>x</span>
-                                <span>&nbsp;</span>
+                                <span className="c_header__text--hidemobile">l</span>
+                                <span className="c_header__text--hidemobile">e</span>
+                                <span className="c_header__text--hidemobile">x</span>
+                                <span className="c_header__text--hidemobile">&nbsp;</span>
                                 <span>m</span>
-                                <span>u</span>
-                                <span>e</span>
-                                <span>n</span>
-                                <span>c</span>
-                                <span>h</span>
+                                <span className="c_header__text--hidemobile">u</span>
+                                <span className="c_header__text--hidemobile">e</span>
+                                <span className="c_header__text--hidemobile">n</span>
+                                <span className="c_header__text--hidemobile">c</span>
+                                <span className="c_header__text--hidemobile">h</span>
                             </a>
                         </Link>
                     </h1>
                     <div className="c_header__linkContainer">
                         <NavLink path="/about" text="About" />
                         <NavLink path="/work" text="work" />
+                        <NavLink path="/birds" text="birds" />
                     </div>
                 </header>
             }

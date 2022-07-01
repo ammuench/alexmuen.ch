@@ -1,4 +1,3 @@
-import config from "../../config.json"
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios"
 
 
@@ -8,7 +7,7 @@ export default async (req, res) => {
 }
 
 export async function getTweets() {
-  const twitterToken = process.env.TWITTER_TOKEN || (config as any).twitterToken;
+  const twitterToken = process.env.TWITTER_TOKEN || undefined;
   if (!twitterToken) {
     throw "No twitter token provided"
   }

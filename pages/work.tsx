@@ -16,13 +16,16 @@ const Work = () => {
                     <li>
                         <a rel="noopener" href="https://www.ggleagues.com" target="_blank">GGLeagues.com Home</a>: A NextJS collection of static, promotional, and marketing pages for GGLeagues, with a focus on speed and SEO</li>
                     <li>
-                        <a rel="noopener" href="https://app.ggleagues.com" target="_blank">GGLeagues.com Webapp</a>: An Angular 11 Applcation that handles our user-facing tournaments, registration, chat system, and payment processing
+                        <a rel="noopener" href="https://app.ggleagues.com" target="_blank">GGLeagues.com Webapp</a>: An Angular 11 Application that handles our user-facing tournaments, registration, chat system, and payment processing
                     </li>
                 </ul>
                 <p>
                     Outside of professional work, I also build some fun microsites:
                 </p>
                 <ul>
+                    <li>
+                        <a rel="noopener" href="https://bartender.dogshell.xyz/" target="_blank">Bartender.Dogshell</a>: A website built on openai-cocktails that generates drinks for you based on a prompt
+                    </li>
                     <li>
                         <a rel="noopener" href="https://itsallno.de" target="_blank">its all node</a>: it's all node?  always has been.
                     </li>
@@ -51,7 +54,10 @@ const Work = () => {
                 </p>
                 <h2 className="c_workPage__header">work history</h2>
                 <p>
-                    I am currently working full-time as the Chief Technology Officer at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a> in Chicago.  I started in April of 2018 in a part-time capacity and transition to full-time in February of 2021.  My duties include managing the devops of our production applications, architecting and building our web applications, and growing and managing our development and tech team at the company.
+                    I am currently a Staff Software Engineer at <a rel="noopener" href="https://strategypoint.co" target="_blank">Strategypoint</a> as of August 2022.  I contribute to both our front-end and back-end code as we build a world-class application to manage business strategy.
+                </p>
+                <p>
+                    Before that, I was the former Chief Technology Officer at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a> in Chicago until August 2022.  I started in April of 2018 in a part-time capacity and transition to full-time in February of 2021.  My duties include managing the devops of our production applications, architecting and building our web applications, and growing and managing our development and tech team at the company.
                 </p>
                 <p>
                     Prior to GGLeagues, I spent 3 years as a Senior Front-End Software Engineer at <a rel="noopener" href="https://www.nerdery.com/" target="_blank">Nerdery</a> in Chicago.  I started in January of 2018.  My duties include software development, technical team management on client projects, and general technology consulting around best practices and strategies for my clients.

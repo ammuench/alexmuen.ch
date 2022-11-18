@@ -30,7 +30,8 @@ const Home = () => {
           <div className="c_homePanel__inner">
             <h3 className="c_homePanel__heading">Work</h3>
             <p>
-              I am currently the CTO at <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">GGLeagues</a>.  I run our technical team and architect our Web Application, which helps us enable organizations and community groups to run recreational esports leagues for their communities</p>
+              I am currently a Staff Software Engineer at <a rel="noopener" href="https://www.strategypoint.co/" target="_blank">Strategypoint</a> where I help build and design a modern business strategy application
+            </p>
             <TextButton path="https://github.com/ammuench" text="My Github" invert />
             <br />
             <TextButton path="/work" text="more about my work" invert />
@@ -40,8 +41,6 @@ const Home = () => {
           <div className="c_homePanel__inner">
             <h3 className="c_homePanel__heading">Bird Photgraphy</h3>
             <p>
-              I've been an avid birder an naturalist for multiple years.
-              <br />
               I'm an avid bird photographer as well who has been published and showcased by the <a rel="noopener" href="https://www.chicagobirder.org/" target="_blank">Chicago Ornithological Society</a> and <a rel="noopener" href="https://ebird.org/" target="_blank">Cornell's eBird</a>.
               <br />
               If there is any interest in licensing my photographs, please reach out via email

@@ -34,15 +34,10 @@ const Work = () => {
         <p>Outside of professional work, I also build some fun microsites:</p>
         <ul>
           <li>
-            <a
-              rel="noopener"
-              href="https://bartender.dogshell.xyz/"
-              target="_blank"
-            >
-              Bartender.Dogshell
+            <a rel="noopener" href="https://catfact.page" target="_blank">
+              Catfact.Page
             </a>
-            : A website built on openai-cocktails that generates drinks for you
-            based on a prompt
+            : A website that gives you a random catfact and image!
           </li>
           <li>
             <a rel="noopener" href="https://itsallno.de" target="_blank">
@@ -91,88 +86,120 @@ const Work = () => {
         </p>
         <h2 className="c_workPage__header">work history</h2>
         <p>
-          I am currently at{" "}
-          <a
-            rel="noopener"
-            href="https://www.carta.healthcare/"
-            target="_blank"
-          >
-            Carta Healthcare
-          </a>
-          as of March 2023, where I am a Senior UI/UX Engineer helping build and
-          develop Carta's internal software, which helps us partner with
-          healthcare organizations to streamline their clinical data collection,
-          improving the quality of care given to patients!
+          I am currently working at{" "}
+          <a href="https://HotelEngine.com">HotelEngine</a>&nbsp; as a{" "}
+          <strong>Staff Software Engineer</strong> as of <em>August 2023</em>,
+          where I am focused on helping architect and develop their Web & Mobile
+          Applications!
         </p>
-        <p>
-          I was a a Staff Software Engineer at{" "}
-          <a rel="noopener" href="https://strategypoint.co" target="_blank">
-            Strategypoint
-          </a>{" "}
-          from August 2022 until March 2023. I helped a small team create
-          Business Strategy Software that tried to make strategy simple and
-          accessible for anyone! I joined as an experienced contributer, and
-          helped modernize both the front-end and back-end systems and develop
-          several new flagship features for the product, working directly with
-          their CTO.
-        </p>
-        <p>
-          Before that, I was the former Chief Technology Officer at{" "}
-          <a rel="noopener" href="https://www.ggleagues.com/" target="_blank">
-            GGLeagues
-          </a>{" "}
-          in Chicago until August 2022. I started in April of 2018 in a
-          part-time capacity and transition to full-time in February of 2021. My
-          duties include managing the devops of our production applications,
-          architecting and building our web applications, and growing and
-          managing our development and tech team at the company.
-        </p>
-        <p>
-          Prior to GGLeagues, I spent 3 years as a Senior Front-End Software
-          Engineer at{" "}
-          <a rel="noopener" href="https://www.nerdery.com/" target="_blank">
-            Nerdery
-          </a>{" "}
-          in Chicago. I started in January of 2018. My duties include software
-          development, technical team management on client projects, and general
-          technology consulting around best practices and strategies for my
-          clients.
-        </p>
-        <p>
-          I was also the founder and lead developer of{" "}
-          <a rel="noopener" href="https://echoleague.gg/" target="_blank">
-            EchoLeague
-          </a>
-          , which was the largest Dota 2 Amateur league of its time with over
-          3000 members. I assembled a team of developers, broadcasters, and
-          community managers to grow the community from the ground up and build
-          a full webapp and software suite to power our competitions. We closed
-          our leagues in 2018 as I moved into my role at GGLeagues and mulitiple
-          other founding members found success within the esports industry in
-          broadcasting, event management, and more.
-        </p>
-        <p>
-          Before that, I spent 5 years working at{" "}
-          <a
-            rel="noopener"
-            href="https://www.accenture.com/us-en/about/interactive-index"
-            target="_blank"
-          >
-            Accenture Interactive
-          </a>{" "}
-          and{" "}
-          <a
-            rel="noopener"
-            href="https://en.wikipedia.org/wiki/Acquity_Group"
-            target="_blank"
-          >
-            Acquity Group (now owned by Accenture Interactive)
-          </a>
-          . I began as an associate level developer, working as team members on
-          various client projects, and was promoted up to Senior Front-End
-          Developer where I took on larger team management and project
-          architecture roles.
-        </p>
+        <ul>
+          <li>
+            <p style={{ marginTop: "1.5rem" }}>
+              <strong>
+                <a
+                  rel="noopener"
+                  href="https://www.carta.healthcare/"
+                  target="_blank"
+                >
+                  Carta Healthcare :: Senior UI/UX Engineer
+                </a>
+              </strong>
+              <em> (March 2023 - August 2023)</em>
+            </p>
+            I helped modernize Carta's front-end UI by translating the codebase
+            into Typescript, as well as building out a new in-house component
+            library (based on Tailwind and Flowbite) and building out brand new
+            features to help assist the abstraction team in their data
+            processing efforts
+          </li>
+          <li>
+            <p style={{ marginTop: "1.5rem" }}>
+              <strong>
+                <a
+                  rel="noopener"
+                  href="https://strategypoint.co"
+                  target="_blank"
+                >
+                  Strategypoint :: Staff Software Engineer
+                </a>
+              </strong>
+              <em> (August 2022 - March 2023)</em>
+            </p>
+            I helped a small team create Business Strategy Software that tried
+            to make strategy simple and accessible for anyone! I joined as an
+            experienced contributer, and helped modernize both the front-end and
+            back-end systems and develop several new flagship features for the
+            product, working directly with their CTO.
+          </li>
+          <li>
+            <p style={{ marginTop: "1.5rem" }}>
+              <strong>
+                <a rel="noopener" href="https://ggleagues.com" target="_blank">
+                  GGLeagues :: Chief Technology Officer
+                </a>
+              </strong>
+              <em> (April 2018 - August 2022)</em>
+            </p>
+            I started in April of 2018 in a part-time capacity and transition to
+            full-time in February of 2021. My duties included managing the
+            devops of our production applications, architecting and building our
+            web applications, and growing and managing our development and tech
+            team at the company. I also helped mentor our junior engineers and
+            was deeply involved with the fundraising process.
+          </li>
+          <li>
+            <p style={{ marginTop: "1.5rem" }}>
+              <strong>
+                <a rel="noopener" href="https://nerdery.com" target="_blank">
+                  Nerdery :: Senior Front-End Engineer
+                </a>
+              </strong>
+              <em> (January 2018 - January 2021)</em>
+            </p>
+            At Nerdery my duties included software development, technical team
+            management on client projects, and general technology consulting
+            around best practices and strategies for my clients.
+          </li>
+          <li>
+            <p style={{ marginTop: "1.5rem" }}>
+              <strong>
+                <a rel="noopener" href="https://echoleague.gg" target="_blank">
+                  EchoLeague :: Founder & Lead Developer
+                </a>
+              </strong>
+              <em> (January 2017 - May 2018)</em>
+            </p>
+            I founded, organized, and built the software for the largest Dota 2
+            Amateur league of its time with over 3000 members. I assembled a
+            team of developers, broadcasters, and community managers to grow the
+            community from the ground up and build a full webapp and software
+            suite to power our competitions. We closed our leagues in 2018 as I
+            moved into my role at GGLeagues and mulitiple other founding members
+            found success within the esports industry in broadcasting, event
+            management, and more.
+          </li>
+          <li>
+            <p style={{ marginTop: "1.5rem" }}>
+              <strong>
+                <a
+                  rel="noopener"
+                  href="https://www.accenture.com/us-en/about/accenture-song-index"
+                  target="_blank"
+                >
+                  Accenture Song :: Senior Front-End Developer
+                </a>
+              </strong>
+              <em> (June 2013 - January 2018)</em>
+            </p>
+            I began as an associate level developer (originally at Acquity Group
+            which was acquired by Accenture), working as team members on various
+            client projects, and was promoted up to Senior Front-End Developer
+            where I took on larger team management and project architecture
+            roles. In my last two years I served as a Senior Staff-Augment
+            resource for Walmart Labs, helping build and release multiple
+            features for Walmart.com
+          </li>
+        </ul>
         <div className="c_workPage__backbtn">
           <TextButton path="/" text="back to home" />
         </div>

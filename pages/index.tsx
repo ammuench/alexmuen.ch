@@ -29,7 +29,7 @@ const Home = () => {
             <p>
               Hello, I'm Alex!
               <br />
-              I am a Full-Stack Typescript Developer from Chicago, Illinois.
+              I am a Full-Stack Web Developer from Chicago, Illinois.
               <br />I have over 10+ years experience in software development
               with additional experience in leadership roles and management!
             </p>
@@ -40,15 +40,16 @@ const Home = () => {
           <div className="c_homePanel__inner">
             <h3 className="c_homePanel__heading">Work</h3>
             <p>
-              I am currently a Senior UI/UX Engineer at{" "}
+              I am currently a Staff Software Engineer at{" "}
               <a
                 rel="noopener"
-                href="https://www.carta.healthcare/"
+                href="https://www.hotelengine.com"
                 target="_blank"
               >
-                Carta Healthcare
+                HotelEngine
               </a>{" "}
-              where I help build internal software to help our business perform!
+              where I am focused on helping architect and develop their Web &
+              Mobile Applications!
             </p>
             <TextButton
               path="https://github.com/ammuench"

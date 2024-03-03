@@ -85,14 +85,26 @@ const Work = () => {
           </div>
         </p>
         <h2 className="c_workPage__header">work history</h2>
-        <p>
-          I am currently working at{" "}
-          <a href="https://HotelEngine.com">HotelEngine</a>&nbsp; as a{" "}
-          <strong>Staff Software Engineer</strong> as of <em>August 2023</em>,
-          where I am focused on helping architect and develop their Web & Mobile
-          Applications!
-        </p>
         <ul>
+          <li>
+            <p style={{ marginTop: "1.5rem" }}>
+              <strong>
+                <a
+                  rel="noopener"
+                  href="https://hotelengine.com"
+                  target="_blank"
+                >
+                  HotelEngine :: Staff Software Engineer
+                </a>
+              </strong>
+              <em> (August 2023 - Present)</em>
+            </p>
+            At HotelEngine I am focused on helping architect and develop their
+            Web & Mobile Applications! I work as part of the Checkout team and
+            focus on delivering new features help improve customer expreiences
+            and conversions, as well as ensuring the stability and performance
+            of the checkout experience.
+          </li>
           <li>
             <p style={{ marginTop: "1.5rem" }}>
               <strong>

@@ -82,10 +82,14 @@ const Home = () => {
               If there is any interest in licensing my photographs, please reach
               out via email
             </p>
-            <TextButton path="/birds" text="recent photography samples" />
+            <TextButton
+              path="https://ebird.org/profile/MTc4NzYzOQ/world"
+              text="eBird profile"
+            />
+            <br />
             <TextButton
               path="https://media.ebird.org/catalog?mediaType=photo&searchField=user&userId=USER1787639&sort=upload_date_desc&unconfirmed=incl"
-              text="My eBird Photo Contributions"
+              text="Bird Photos"
             />
           </div>
         </div>

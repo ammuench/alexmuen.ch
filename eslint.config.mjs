@@ -5,7 +5,13 @@ import simpleImportSort from "eslint-plugin-simple-import-sort";
 
 export default [
   {
-    ignores: [".astro/**", ".husky/**", "*.d.ts", "node_modules/"],
+    ignores: [
+      ".astro/**",
+      ".husky/**",
+      "*.d.ts",
+      "node_modules/",
+      "public/license.html",
+    ],
   },
   ...eslintPluginAstro.configs.recommended,
   jsxA11y.flatConfigs.recommended,

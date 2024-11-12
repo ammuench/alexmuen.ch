@@ -1,0 +1,79 @@
+---
+import ProjectEntry from "@components/ProjectEntry.astro";
+import BasePageLayout from "@layouts/BasePageLayout.astro";
+import { getCollection } from "astro:content";
+
+const projectsBulk = await getCollection("projects");
+const featuredProjects = projectsBulk.filter(
+  (projects) => projects.data.category === "featured"
+);
+const ossProjects = projectsBulk.filter(
+  (projects) => projects.data.category === "opensource"
+);
+const funProjects = projectsBulk.filter(
+  (projects) => projects.data.category === "fun"
+);
+---
+
+<BasePageLayout>
+  <div class="mx-auto max-w-3xl">
+    <article class="prose mx-auto lg:prose-xl">
+      <h2 class="text-center underline">work</h2>
+      <p>
+        Outside of work I truly do enjoy being able to build and create things
+        with code! Below are a selection of my featured projects:
+      </p>
+    </article>
+    <article class="prose mx-auto lg:prose-xl mt-8">
+      <h2 class="text-center underline">projects</h2>
+      <p>
+        Outside of work I truly do enjoy being able to build and create things
+        with code! Below are a selection of my featured projects:
+      </p>
+
+      <h3>featured projects</h3>
+      <ul>
+        {
+          featuredProjects.map((fProject) => (
+            <li>
+              <ProjectEntry project={fProject} />
+            </li>
+          ))
+        }
+      </ul>
+
+      <h3>open source libraries & contributions</h3>
+      <ul>
+        {
+          ossProjects.map((fProject) => (
+            <li>
+              <ProjectEntry project={fProject} />
+            </li>
+          ))
+        }
+      </ul>
+      <h3>side projects and experiments</h3>
+      <ul>
+        {
+          funProjects.map((funProject) => (
+            <li>
+              <ProjectEntry project={funProject} />
+            </li>
+          ))
+        }
+      </ul>
+      <p>
+        You can find many more projects, tools, and various code repos over at
+        my github page!
+      </p>
+      <div class="w-full text-center">
+        <a
+          href="https://github.com/ammuench"
+          class="btn-primary btn"
+          target="_blank"
+          >Github</a
+        >
+      </div>
+    </article>
+  </div>
+</BasePageLayout>

@@ -5,17 +5,24 @@ import LandingLayout from "../layouts/LandingLayout.astro";
 ---
 
 <LandingLayout>
+  <script>
+    const scrollAdvanceBtn = document.querySelector("#hero-advance");
+    scrollAdvanceBtn?.addEventListener("click", () => {
+      const aboutBlock = document.querySelector("#about-me");
+      if (aboutBlock) {
+        aboutBlock.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  </script>
   <!-- HERO PANEL -->
   <div>
-    <div class="hero min-h-[75vh] bg-primary">
+    <div class="hero h-dvh bg-primary">
       <div class="hero-content flex-col gap-16 p-16 lg:flex-row">
         <svg
           id="fi_3077028"
-          class="max-w-xs fill-primary-content stroke-primary-content"
+          class="max-w-xs w-full fill-primary-content stroke-primary-content"
           enable-background="new 0 0 512 512"
-          height="512"
           viewBox="0 0 512 512"
-          width="512"
           xmlns="http://www.w3.org/2000/svg"
         >
           <g id="XMLID_1488_">
@@ -62,9 +69,20 @@ import LandingLayout from "../layouts/LandingLayout.astro";
           </p>
         </div>
       </div>
+      <div>
+        <button
+          class="btn btn-circle absolute bottom-4 left-[calc(50%-24px)]"
+          id="hero-advance"
+        >
+        </button>
+      </div>
     </div>
+
     <!-- ABOUT ME SECTION -->
-    <div class="w-full bg-base-100 p-16 text-base-content">
+    <div
+      class="w-full bg-base-100 p-16 text-base-content"
+      id="about-me"
+    >
       <div class="mx-auto max-w-3xl">
         <div class="grid grid-cols-[150px_1fr] items-center gap-8">
           <div class="w-full">

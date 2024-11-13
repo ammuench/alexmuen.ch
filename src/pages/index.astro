@@ -14,6 +14,51 @@ import LandingLayout from "../layouts/LandingLayout.astro";
       }
     });
   </script>
+  <style>
+    .panel-left {
+      display: grid;
+      grid-template-areas: "icon copy";
+      grid-template-columns: 150px 1fr;
+
+      @media (max-width: 600px) {
+        grid-template-areas:
+          "icon"
+          "copy";
+        grid-template-columns: 1fr;
+        grid-template-rows: 75px 1fr;
+      }
+    }
+    .panel-right {
+      display: grid;
+      grid-template-areas: "copy icon";
+      grid-template-columns: 1fr 150px;
+
+      @media (max-width: 600px) {
+        grid-template-areas:
+          "icon"
+          "copy";
+        grid-template-columns: 1fr;
+        grid-template-rows: 75px 1fr;
+      }
+    }
+
+    .grid-panel-icon {
+      grid-area: icon;
+    }
+
+    .grid-panel-icon > svg {
+      @media (max-width: 600px) {
+        max-height: 75px;
+      }
+    }
+    .grid-panel-copy {
+      grid-area: copy;
+    }
+
+    .grid-panel-copy .btn {
+      width: 100%;
+    }
+  </style>
   <!-- HERO PANEL -->
   <div>
     <div class="hero h-dvh bg-primary">
@@ -71,9 +116,27 @@ import LandingLayout from "../layouts/LandingLayout.astro";
       </div>
       <div>
         <button
-          class="btn btn-circle absolute bottom-4 left-[calc(50%-24px)]"
+          class="btn btn-secondary btn-circle absolute bottom-6 md:bottom-4 left-[calc(50%-24px)] flex"
           id="hero-advance"
         >
+          <svg
+            class="h-9"
+            id="fi_7529686"
+            enable-background="new 0 0 24 24"
+            height="512"
+            viewBox="0 0 24 24"
+            width="512"
+            xmlns="http://www.w3.org/2000/svg"
+            ><g
+              ><path
+                d="m12 13c-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-5 5c-.2.2-.4.3-.7.3z"
+              ></path></g
+            ><g
+              ><path
+                d="m12 19c-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-5 5c-.2.2-.4.3-.7.3z"
+              ></path></g
+            ></svg
+          >
         </button>
       </div>
     </div>
@@ -84,8 +147,8 @@ import LandingLayout from "../layouts/LandingLayout.astro";
       id="about-me"
     >
       <div class="mx-auto max-w-3xl">
-        <div class="grid grid-cols-[150px_1fr] items-center gap-8">
-          <div class="w-full">
+        <div class="panel-left items-center gap-8">
+          <div class="w-full grid-panel-icon">
             <svg
               class="h-auto w-full fill-base-content"
               enable-background="new 0 0 479.983 479.983"
@@ -107,7 +170,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
               </g>
             </svg>
           </div>
-          <div>
+          <div class="grid-panel-copy">
             <h2 class="mb-8 text-4xl font-bold">who am i?</h2>
             <p class="mb-8">
               Hello, I'm Alex! I am an Experienced Full-Stack Developer from
@@ -127,8 +190,8 @@ import LandingLayout from "../layouts/LandingLayout.astro";
     <!-- WORK SECTION -->
     <div class="w-full bg-primary p-16 text-primary-content">
       <div class="mx-auto max-w-3xl">
-        <div class="grid grid-cols-[1fr_150px] items-center gap-8">
-          <div class="text-right">
+        <div class="panel-right items-center gap-8">
+          <div class="text-right grid-panel-copy">
             <h2 class="mb-8 text-4xl font-bold">work and projects</h2>
             <p class="mb-8">
               I am currently a <strong>Staff Software Engineer</strong> working at
@@ -151,7 +214,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
               My work
             </a>
           </div>
-          <div class="w-full">
+          <div class="w-full grid-panel-icon">
             <svg
               id="fi_1197460"
               class="h-auto w-full fill-primary-content"
@@ -258,8 +321,8 @@ import LandingLayout from "../layouts/LandingLayout.astro";
     <!-- BIRDING SECTION -->
     <div class="w-full bg-base-100 p-16 text-base-content">
       <div class="mx-auto max-w-3xl">
-        <div class="grid grid-cols-[150px_1fr] items-center gap-8">
-          <div class="w-full">
+        <div class="panel-left items-center gap-8">
+          <div class="w-full grid-panel-icon">
             <svg
               id="fi_6107303"
               class="h-auto w-full fill-base-content"
@@ -284,7 +347,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
               ></rect>
             </svg>
           </div>
-          <div>
+          <div class="grid-panel-copy">
             <h2 class="mb-8 text-4xl font-bold">bird photgraphy</h2>
             <p class="mb-8">
               I'm an avid bird photographer as well who has been published and
@@ -318,8 +381,8 @@ import LandingLayout from "../layouts/LandingLayout.astro";
     <!-- CONTACT SECTION -->
     <div class="w-full bg-primary p-16 text-primary-content">
       <div class="mx-auto max-w-3xl">
-        <div class="grid grid-cols-[1fr_150px] items-center gap-8">
-          <div class="text-right">
+        <div class="panel-right items-center gap-8">
+          <div class="text-right grid-panel-copy">
             <h2 class="mb-8 text-4xl font-bold">contact me</h2>
             <p class="mb-8">
               You can reach out to me with any inquiries or questions via email
@@ -339,7 +402,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
             <a
               href="https://www.linkedin.com/in/alex-muench/"
               target="_blank"
-              class="btn bg-base-100 flex max-w-44 ml-auto"
+              class="btn bg-base-100 flex md:max-w-44 ml-auto"
             >
               <svg
                 class="max-w-5 fill-base-content stroke-base-content"
@@ -359,7 +422,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
               <span>My LinkedIn</span>
             </a>
           </div>
-          <div class="w-full">
+          <div class="w-full grid-panel-icon">
             <svg
               id="fi_2590818"
               class="h-auto w-full fill-primary-content"

@@ -1,0 +1,30 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { format, parseISO } from "date-fns";
+type Props = {
+  workEntry: CollectionEntry<"work">;
+};
+
+const { workEntry } = Astro.props;
+
+const startDateFmt = format(workEntry.data.startDate, "LLLL y");
+const endDateFmt = workEntry.data.endDate
+  ? format(workEntry.data.endDate, "LLLL y")
+  : "Present";
+---
+
+<p>
+  <strong>
+    <a
+      href={workEntry.data.link}
+      target="_blank"
+      >{workEntry.data.title} :: {workEntry.data.role}</a
+    >
+  </strong>
+  <span>
+    <em>({startDateFmt} - {endDateFmt})</em>
+  </span>
+</p>
+<p>
+  {workEntry.body}
+</p>

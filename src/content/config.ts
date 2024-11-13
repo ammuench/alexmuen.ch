@@ -11,9 +11,10 @@ const projects = defineCollection({
 });
 
 const work = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/writing" }),
+  loader: glob({ pattern: "**/*.md", base: "./src/content/work" }),
   schema: z.object({
     title: z.string(),
+    role: z.string(),
     link: z.string().url(),
     startDate: z.coerce.date(),
     endDate: z.coerce.date().optional(),

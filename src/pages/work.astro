@@ -1,5 +1,6 @@
 ---
 import ProjectEntry from "@components/ProjectEntry.astro";
+import WorkEntry from "@components/WorkEntry.astro";
 import BasePageLayout from "@layouts/BasePageLayout.astro";
 import { getCollection } from "astro:content";
 
@@ -13,16 +14,33 @@ const ossProjects = projectsBulk.filter(
 const funProjects = projectsBulk.filter(
   (projects) => projects.data.category === "fun"
 );
+
+const workBulk = await getCollection("work");
+const sortedWork = workBulk.toSorted((a, b) => {
+  const aStart = a.data.startDate;
+  const bStart = b.data.startDate;
+
+  if (aStart > bStart) {
+    return -1;
+  } else {
+    return 1;
+  }
+});
 ---
 
 <BasePageLayout>
-  <div class="mx-auto max-w-3xl">
+  <div class="mx-auto max-w-3xl py-4">
     <article class="prose mx-auto md:prose-lg">
       <h1 class="text-center underline">work</h1>
-      <p>
-        Outside of work I truly do enjoy being able to build and create things
-        with code! Below are a selection of my featured projects:
-      </p>
+      <ul>
+        {
+          sortedWork.map((workEntry) => (
+            <li>
+              <WorkEntry workEntry={workEntry} />
+            </li>
+          ))
+        }
+      </ul>
     </article>
     <article class="prose mx-auto md:prose-lg mt-8">
       <h1 class="text-center underline">projects</h1>

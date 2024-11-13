@@ -1,5 +1,13 @@
 ---
+import AboutMeContent from "@content/pages/about-me.md";
 import BasePageLayout from "@layouts/BasePageLayout.astro";
 ---
 
-<BasePageLayout> about me </BasePageLayout>
+<BasePageLayout>
+  <div class="mx-auto max-w-3xl py-4">
+    <article class="prose mx-auto md:prose-lg">
+      <h1 class="text-center underline">about me</h1>
+      <AboutMeContent />
+    </article>
+  </div>
+</BasePageLayout>

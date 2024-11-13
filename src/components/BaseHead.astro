@@ -1,3 +1,18 @@
+---
+type Props = {
+  title?: string;
+  description?: string;
+};
+
+const DEFAULT_DESCRIPTION =
+  "Alex Muench is a Full-Stack Software Developer from Chicago, IL with over 12 years of professional development and tech-leadership experience.  He's also a bird enjoyer";
+
+const { title, description = DEFAULT_DESCRIPTION } = Astro.props;
+const generatedTitle = title
+  ? `${title} | alexmuen.ch`
+  : "alexmuen.ch | software developer and bird enjoyer";
+---
+
 <head>
   <meta charset="UTF-8" />
   <meta
@@ -7,7 +22,24 @@
   <link
     rel="icon"
     type="image/svg+xml"
-    href="/favicon.svg"
+    href="/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/favicon-16x16.png"
   />
   <meta
     name="theme-color"
@@ -17,5 +49,56 @@
     name="generator"
     content={Astro.generator}
   />
-  <title>Astro Basics</title>
+  <title>{generatedTitle}</title>
+  <meta
+    name="title"
+    content={generatedTitle}
+  />
+  <meta
+    name="description"
+    content={description}
+  />
+
+  <!-- Open Graph / Facebook -->
+  <meta
+    property="og:type"
+    content="website"
+  />
+  <meta
+    property="og:url"
+    content="https://alexmuen.ch"
+  />
+  <meta
+    property="og:title"
+    content={generatedTitle}
+  />
+  <meta
+    property="og:description"
+    content={description}
+  />
+  <meta
+    property="og:image"
+    content="https://alexmuen.ch/meta.png"
+  />
+  <!-- Twitter -->
+  <meta
+    property="twitter:card"
+    content="summary_large_image"
+  />
+  <meta
+    property="twitter:url"
+    content="https://alexmuen.ch"
+  />
+  <meta
+    property="twitter:title"
+    content={generatedTitle}
+  />
+  <meta
+    property="twitter:description"
+    content={description}
+  />
+  <meta
+    property="twitter:image"
+    content="https://alexmuen.ch/meta.png"
+  />
 </head>

@@ -53,10 +53,16 @@ import LandingLayout from "../layouts/LandingLayout.astro";
     }
     .grid-panel-copy {
       grid-area: copy;
+
+      @media (max-width: 600px) {
+        text-align: left;
+      }
     }
 
     .grid-panel-copy .btn {
-      width: 100%;
+      @media (max-width: 600px) {
+        width: 100%;
+      }
     }
   </style>
   <!-- HERO PANEL -->
@@ -110,7 +116,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
         <div class="text-center lg:text-left">
           <h1 class="text-5xl font-bold text-primary-content">alex muench</h1>
           <p class="py-6 text-primary-content">
-            software developer & bird enthusiast
+            software developer & bird enjoyer
           </p>
         </div>
       </div>
@@ -173,7 +179,7 @@ import LandingLayout from "../layouts/LandingLayout.astro";
           <div class="grid-panel-copy">
             <h2 class="mb-8 text-4xl font-bold">who am i?</h2>
             <p class="mb-8">
-              Hello, I'm Alex! I am an Experienced Full-Stack Developer from
+              Hello, I'm Alex! I am an experienced Full-Stack Developer from
               Chicago, Illinois. I have over 12+ years experience in software
               development with additional experience in leadership roles and
               management!

@@ -2,11 +2,21 @@
 import BaseHead from "@components/BaseHead.astro";
 import SiteFooter from "@components/SiteFooter.astro";
 import SiteNavigation from "@components/SiteNavigation.astro";
+
+type Props = {
+  title: string;
+  description?: string;
+};
+
+const props = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
-  <BaseHead />
+  <BaseHead
+    title={props.title}
+    description={props.description}
+  />
   <body>
     <div class="grid w-full grid-cols-[1fr] grid-rows-[auto_1fr]">
       <SiteNavigation />

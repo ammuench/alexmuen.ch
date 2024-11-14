@@ -18,7 +18,7 @@ While my career started primarily doing Front-End/UI Work, I have expanded my sk
 
 Outside of work, I maintain several open source libraries, a book review website called [PageTern](https://pagetern.app), and am working with a small team on a soon-to-be-released coffee brewing app for native mobile devices.
 
-When I'm not working on software development, I've taken an interest in birding and bird photography. [You can see my photography and progress over on eBird!](https://ebird.org/profile/MTc4NzYzOQ). My partner have a dog and two cats that always keep us busy, and I'm also an avid World of Warcraft raider, and have been raid leading my guild for the past 4 years!
+When I'm not working on software development, I've taken an interest in birding and bird photography. [You can see my photography and progress over on eBird!](https://ebird.org/profile/MTc4NzYzOQ). My partner and I have a dog and two cats that always keep us busy, and I'm also an avid World of Warcraft raider, and have been raid leading my guild for the past 4 years!
 
 ## skills
 

@@ -3,7 +3,7 @@ const { pathname } = Astro.url;
 const getStateClass = (href: string) => (href === pathname ? "underline" : "");
 ---
 
-<header class="navbar bg-primary text-primary-content z-50 sticky top-0">
+<header class="navbar bg-primary text-primary-content sticky top-0">
   <script>
     document
       .querySelector("#menu-btn-mobile")
@@ -32,7 +32,7 @@ const getStateClass = (href: string) => (href === pathname ? "underline" : "");
       pointer-events: auto;
     }
   </style>
-  <div class="flex-1">
+  <div class="flex-1 z-50">
     <a
       href="/"
       class="btn btn-ghost flex text-xl normal-case"
@@ -59,7 +59,7 @@ const getStateClass = (href: string) => (href === pathname ? "underline" : "");
           </g>
         </svg>
       </span>
-      <span> alex muench </span>
+      <span class="font-heading font-bold"> alex muench </span>
     </a>
   </div>
   <div class="flex-none">

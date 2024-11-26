@@ -16,9 +16,11 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.2",
     "astro": "^5.0.0-beta.7",
     "astro-font": "^0.1.81",
+    "astro-robots": "^2.2.0",
     "date-fns": "^4.1.0",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3"

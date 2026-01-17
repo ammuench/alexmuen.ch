@@ -33,7 +33,7 @@ const getStateClass = (href: string) => (href === pathname ? "underline" : "");
     }
   </style>
   <div class="w-full max-w-3xl mx-auto flex flex-row justify-between">
-    <div class="flex-1 z-50 flex justify-start">
+    <div class="flex-1 z-50 flex justify-start items-center">
       <a
         href="/"
         class="btn btn-ghost flex text-xl normal-case"
@@ -63,7 +63,7 @@ const getStateClass = (href: string) => (href === pathname ? "underline" : "");
         <span class="font-heading font-bold"> alex muench </span>
       </a>
     </div>
-    <div class="flex-none">
+    <div class="flex-none flex items-center">
       <ul class="menu menu-horizontal px-1 hidden md:flex">
         <li>
           <a
@@ -117,7 +117,7 @@ const getStateClass = (href: string) => (href === pathname ? "underline" : "");
         id="mobile-menu-links"
         class="md:hidden absolute top-[64px] left-0 w-full bg-primary menu-default"
       >
-        <ul class="menu menu-vertical px-1 items-end">
+        <ul class="menu menu-vertical px-1 items-end w-full">
           <li>
             <a
               href="/about-me"

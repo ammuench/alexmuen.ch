@@ -15,10 +15,10 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/check": "0.9.6-beta.1",
+    "@astrojs/sitemap": "3.6.1-beta.2",
     "@tailwindcss/vite": "^4.1.18",
-    "astro": "^5.3.0",
+    "astro": "6.0.0-beta.1",
     "astro-font": "^0.1.81",
     "astro-robots": "^2.3.1",
     "date-fns": "^4.1.0",

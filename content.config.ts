@@ -1,12 +1,13 @@
 import { glob } from "astro/loaders";
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { z } from "astro/zod";
 
 const projects = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/projects" }),
   schema: z.object({
     title: z.string(),
     category: z.enum(["opensource", "featured", "fun"]),
-    link: z.string().url().optional(),
+    link: z.url().optional(),
   }),
 });
 
@@ -15,7 +16,7 @@ const work = defineCollection({
   schema: z.object({
     title: z.string(),
     role: z.string(),
-    link: z.string().url(),
+    link: z.url(),
     startDate: z.coerce.date(),
     endDate: z.coerce.date().optional(),
   }),

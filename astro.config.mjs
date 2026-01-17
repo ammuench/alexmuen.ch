@@ -8,6 +8,10 @@ import robots from "astro-robots";
 export default defineConfig({
   site: "https://alexmuen.ch",
 
+  build: {
+    inlineStylesheets: "auto",
+  },
+
   integrations: [
     sitemap(),
     robots({

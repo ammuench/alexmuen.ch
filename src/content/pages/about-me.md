@@ -1,4 +1,4 @@
-Hello! My name is Alex Muench. I'm a software developer with over 12 years of professional experience. I grew up just outside of Chicago, and have been living in the city since 2013.
+Hello! My name is Alex Muench. I'm a software developer with over 13 years of professional experience. I grew up just outside of Chicago, and have been living in the city since 2013.
 
 I have been tinkering with computers and programming since a child, and have been making websites since the days of Geocities. I'm also passionate about marine biology and the environment around us. I pursued both these topics in college, and graduated from the University of Notre Dame with a double major in Environmental Science and Computer Applications.
 
@@ -10,11 +10,11 @@ As I moved on from EchoLeague, I helped found GGLeagues, a startup focused on he
 
 After we closed down GGLeagues, I had the startup-bug and joined a few other early stage startups as a staff software engineer before landing at Engine, where I rejoined one of my GGLeagues co-founders as a Staff Front-End Engineer. I currently work on our Lodging Checkout & Postbooking team maintaining our web, mobile-web, and native-mobile applications, have lead several company-wide initiatives (including a full company rebrand), and maintain several internal tools & libraries--including a React form library and an email templating and generation tool.
 
-While my career started primarily doing Front-End/UI Work, I have expanded my skillset over the last 12+ years and am an experinced Full-Stack TypeScript/Javascript developer, with plenty of experience in both UI and Server-based work.
+While my career started primarily doing Front-End/UI Work, I have expanded my skillset over the last 13+ years and am an experinced Full-Stack TypeScript/Javascript developer, with plenty of experience in both UI and Server-based work.
 
 Outside of work, I maintain several open source libraries, a book review website called [PageTern](https://pagetern.app), and am working with a small team on a soon-to-be-released coffee brewing app for native mobile devices.
 
-When I'm not working on software development, I've taken an interest in birding and bird photography. [You can see my photography and progress over on eBird!](https://ebird.org/profile/MTc4NzYzOQ). My partner and I have a dog and two cats that always keep us busy, and I'm also an avid World of Warcraft raider, and have been raid leading my guild for the past 4 years!
+When I'm not working on software development, I've taken an interest in birding and bird photography. [You can see my photography and progress over on eBird!](https://ebird.org/profile/MTc4NzYzOQ). My partner and I have a dog and two cats that always keep us busy, and I'm also an avid World of Warcraft raider, and have been raid leading my guild for the past 6 years!
 
 ## skills
 
